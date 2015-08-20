@@ -1,0 +1,9 @@
+git format-patch master --stdout > fix_empty_poster.patch
+
+This will create a new file fix_empty_poster.patch with all changes from the current (fix_empty_poster) against master. Normally, 
+git would create a separate patch file for each commit, but that’s not what we want. All we need is a single patch file.
+
+git apply --stat fix_empty_poster.patch
+
+git apply --check fix_empty_poster.patch
+git apply 
