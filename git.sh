@@ -77,3 +77,4 @@ alias gcsam="git commit -S -am"
 alias gstd="git stash drop"
 alias gstl="git stash list"
 alias squash="git rebase -i "
+# git log master..experiment hasn’t yet been merged into your master branch
