@@ -1,0 +1,4 @@
+Double Dot
+The most common range specification is the double-dot syntax. This basically asks Git to resolve a range of commits that are 
+reachable from one commit but aren’t reachable from another
+git log master..experiment
