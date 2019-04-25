@@ -78,3 +78,4 @@ alias gstd="git stash drop"
 alias gstl="git stash list"
 alias squash="git rebase -i "
 # git log master..experiment hasn’t yet been merged into your master branch
+# git blame -L 69,82 Makefile
